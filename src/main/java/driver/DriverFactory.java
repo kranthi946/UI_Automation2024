@@ -30,6 +30,8 @@ public final class DriverFactory {
 			//chromeOptions.addArguments("--incognito");
 			chromeOptions.setBinary("/usr/bin/google-chrome");
 			//chromeOptions.addArguments("--incognito");
+
+			 System.out.println("Starting in headless mode");
 			chromeOptions.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage", "--remote-allow-origins=*");
 
 
