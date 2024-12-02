@@ -95,15 +95,7 @@
             <version>4.11.0</version>
         </dependency>
 
-         
-    <!-- Selenium DevTools dependency for compatibility with Chrome 131 -->
-    <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-devtools-v131</artifactId>
-        <version>4.11.0</version> <!-- Ensure this matches the version of Selenium you are using -->
-    </dependency>
-
-
+ 
 
         <!-- SLF4J (consolidated) -->
         <dependency>
