@@ -28,7 +28,7 @@ public final class DriverFactory {
 			// ChromeOptions to configure Chrome browser settings
 			ChromeOptions chromeOptions = new ChromeOptions();
 			//chromeOptions.addArguments("--incognito");
-			chromeOptions.setBinary("/usr/bin/google-chrome");
+			//chromeOptions.setBinary("/usr/bin/google-chrome");   if we want to tell the jenkins go this location and run maven using this browser then uncomment where chromebrpwser installed and available
 			//chromeOptions.addArguments("--incognito");
 
 			 System.out.println("Starting in headless mode");
